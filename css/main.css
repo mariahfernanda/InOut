@@ -1,0 +1,32 @@
+main{
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.tituloMain{
+    text-align: center;
+    color:#462402;
+    font-size: 5rem;
+    height: 200px;
+    text-decoration: underline;
+}
+
+.descricaoProduto{
+    font-size: 1rem;
+    color: #462402;
+}
+
+.container{  
+    background-color: aliceblue;  
+}
+
+.img{
+    display: inline-block;
+    justify-content: space-around;
+    width: 400px;
+    background-size: cover;
+}
+
+
