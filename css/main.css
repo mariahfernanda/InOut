@@ -4,29 +4,77 @@ main{
     text-align: center;
     color: black;
 }
+.logo{
+    width: 100%;
+    background-size: cover;
+}
+
+.container-frete{
+   width: 203vh;
+   height: 900px;
+   background: url(../img/frete.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   margin-top: 60px;
+}
 
 .tituloMain{
     text-align: center;
     color:#462402;
-    font-size: 5rem;
+    font-size: 4rem;
     height: 200px;
-    text-decoration: underline;
+    text-decoration: 2px underline;
 }
 
 .descricaoProduto{
     font-size: 1rem;
-    color: #462402;
+    color: #a65a0e;
 }
 
 .container{  
     background-color: aliceblue;  
+    margin-bottom: 50px;
+   
+}
+
+.container .img{
+    border: 3px solid  rgba(0, 0, 0, 0.348);
 }
 
 .img{
+    width:400px;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
     display: inline-block;
-    justify-content: space-around;
-    width: 400px;
-    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
+.configImg{
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+
+    
+}
+
+.img:hover{
+    background-color: rgba(164, 164, 164, 0.314);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.493);
+    transition: 0.4s;
+}
+
+.container-footer{
+    width: 203vh;
+    height: 200px;
+    background: url(../img/coffe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+}

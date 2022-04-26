@@ -54,7 +54,8 @@ img{
     flex-direction: column;
     justify-content: center;
     width: 160px;
-    height: 171px;
+    height: 200px;
+    margin-top: 40px;
     list-style: none;
     font-family: "Roboto", sans-serif;
   }
